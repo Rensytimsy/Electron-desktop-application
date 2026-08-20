@@ -1,0 +1,15 @@
+{
+  "name": "electron-desktop-application",
+  "main": "main.ts",
+  "type": "module",
+  "scripts": {
+    "start": "electron . && --watch main.ts"
+    
+  },
+  "devDependencies": {
+    "electron": "^43.4.1",
+    "tsc": "^2.0.4",
+    "typescript": "^7.0.2"
+  },
+  "author": "Timothy Mutwiri"
+}
